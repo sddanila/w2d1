@@ -29,6 +29,7 @@ var https = require('https');
 
 // });
 
+ STEP 1
 var requestOptions = {
   host: 'sytantris.github.io',
   path: '/http-examples/step1.html'
@@ -55,4 +56,3 @@ function getAndPrintHTMLChunks () {
 }
 
 console.log(getAndPrintHTMLChunks());
-
